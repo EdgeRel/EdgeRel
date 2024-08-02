@@ -1,0 +1,16 @@
+[package]
+name = "edgeql-parser-derive"
+description = "Derive macros for IntoPython trait for AST"
+version = "0.1.0"
+edition = "2021"
+
+[lints]
+workspace = true
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
